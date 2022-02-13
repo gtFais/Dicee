@@ -16,7 +16,6 @@
 		2C1506F127B98114007B4B62 /* DiceeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1506F027B98114007B4B62 /* DiceeTests.swift */; };
 		2C1506FB27B98114007B4B62 /* DiceeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1506FA27B98114007B4B62 /* DiceeUITests.swift */; };
 		2C1506FD27B98114007B4B62 /* DiceeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1506FC27B98114007B4B62 /* DiceeUITestsLaunchTests.swift */; };
-		2C15070A27B98AA1007B4B62 /* Dices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C15070927B98AA1007B4B62 /* Dices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +49,6 @@
 		2C1506F627B98114007B4B62 /* DiceeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C1506FA27B98114007B4B62 /* DiceeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceeUITests.swift; sourceTree = "<group>"; };
 		2C1506FC27B98114007B4B62 /* DiceeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceeUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		2C15070927B98AA1007B4B62 /* Dices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +106,6 @@
 				2C1506E227B98114007B4B62 /* Assets.xcassets */,
 				2C1506E427B98114007B4B62 /* LaunchScreen.storyboard */,
 				2C1506E727B98114007B4B62 /* Info.plist */,
-				2C15070927B98AA1007B4B62 /* Dices.swift */,
 			);
 			path = Dicee;
 			sourceTree = "<group>";
@@ -263,7 +260,6 @@
 			files = (
 				2C1506DE27B98112007B4B62 /* ViewController.swift in Sources */,
 				2C1506DA27B98112007B4B62 /* AppDelegate.swift in Sources */,
-				2C15070A27B98AA1007B4B62 /* Dices.swift in Sources */,
 				2C1506DC27B98112007B4B62 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
