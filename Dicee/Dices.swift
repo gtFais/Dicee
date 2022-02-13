@@ -8,11 +8,11 @@
 import Foundation
 import UIKit
 
-struct Dices {
-    let diceOne: UIImage = #imageLiteral(resourceName: "DiceOne")
-    let diceTwo: UIImage = #imageLiteral(resourceName: "DiceTwo")
-    let diceThree: UIImage = #imageLiteral(resourceName: "DiceThree")
-    let diceFour: UIImage = #imageLiteral(resourceName: "DiceFour")
-    let diceFive: UIImage = #imageLiteral(resourceName: "DiceFive")
-    let diceSix: UIImage = #imageLiteral(resourceName: "DiceSix")
+enum Dices {
+    case one
+    case two
+    case three
+    case four
+    case five
+    case six
 }

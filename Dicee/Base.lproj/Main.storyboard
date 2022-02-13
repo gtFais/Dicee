@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -20,42 +20,38 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="FO6-ei-V3d">
-                                <rect key="frame" x="76" y="183" width="262" height="530"/>
+                                <rect key="frame" x="76" y="174" width="262" height="488"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Z5S-TZ-kLf">
-                                        <rect key="frame" x="33" y="0.0" width="196" height="196"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="Z5S-TZ-kLf" secondAttribute="height" multiplier="1:1" id="6XB-vW-qza"/>
-                                        </constraints>
+                                        <rect key="frame" x="33" y="0.0" width="196" height="128"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="62" translatesAutoresizingMaskIntoConstraints="NO" id="f7U-Zh-Aa7">
-                                        <rect key="frame" x="0.0" y="276" width="262" height="100"/>
+                                        <rect key="frame" x="0.0" y="208" width="262" height="100"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="H9z-Xr-phW">
                                                 <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="H9z-Xr-phW" secondAttribute="height" multiplier="1:1" id="zF5-te-5XX"/>
+                                                </constraints>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="2dd-Cc-i1V">
                                                 <rect key="frame" x="162" y="0.0" width="100" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="2dd-Cc-i1V" secondAttribute="height" multiplier="1:1" id="fYc-mr-8fc"/>
+                                                </constraints>
                                             </imageView>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="2dd-Cc-i1V" secondAttribute="trailing" id="QZa-Id-0Tz"/>
-                                            <constraint firstItem="2dd-Cc-i1V" firstAttribute="leading" secondItem="H9z-Xr-phW" secondAttribute="trailing" constant="62" id="ZSf-7R-fFb"/>
-                                            <constraint firstItem="H9z-Xr-phW" firstAttribute="leading" secondItem="f7U-Zh-Aa7" secondAttribute="leading" id="dcQ-7Y-lgy"/>
-                                            <constraint firstItem="H9z-Xr-phW" firstAttribute="top" secondItem="f7U-Zh-Aa7" secondAttribute="top" id="elT-Ux-fwV"/>
-                                            <constraint firstItem="2dd-Cc-i1V" firstAttribute="leading" secondItem="H9z-Xr-phW" secondAttribute="trailing" constant="62" id="tYc-Q6-S9i"/>
-                                            <constraint firstItem="2dd-Cc-i1V" firstAttribute="top" secondItem="f7U-Zh-Aa7" secondAttribute="top" id="y91-zA-cv0"/>
-                                        </constraints>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cFa-4G-Hc1">
-                                        <rect key="frame" x="57" y="456" width="148" height="74"/>
+                                    <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cFa-4G-Hc1">
+                                        <rect key="frame" x="95" y="388" width="72" height="100"/>
                                         <color key="backgroundColor" red="0.60688334700000002" green="0.11012608560000001" blue="0.1197500303" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="cFa-4G-Hc1" secondAttribute="height" multiplier="2:1" id="WIe-LA-cc5"/>
-                                        </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Roll">
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="50"/>
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" red="0.60688334700000002" green="0.11012608560000001" blue="0.1197500303" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="strokeColor" systemColor="placeholderTextColor"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -64,22 +60,23 @@
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="Z5S-TZ-kLf" firstAttribute="top" secondItem="FO6-ei-V3d" secondAttribute="top" id="11f-bg-e12"/>
-                                    <constraint firstAttribute="trailing" secondItem="Z5S-TZ-kLf" secondAttribute="trailing" constant="33" id="faP-7K-gUC"/>
-                                    <constraint firstItem="Z5S-TZ-kLf" firstAttribute="leading" secondItem="FO6-ei-V3d" secondAttribute="leading" constant="33" id="rt1-iE-fqC"/>
+                                    <constraint firstItem="f7U-Zh-Aa7" firstAttribute="centerX" secondItem="FO6-ei-V3d" secondAttribute="centerX" id="IhF-P2-YS9"/>
+                                    <constraint firstItem="cFa-4G-Hc1" firstAttribute="centerX" secondItem="FO6-ei-V3d" secondAttribute="centerX" id="e8p-hs-ihy"/>
+                                    <constraint firstItem="Z5S-TZ-kLf" firstAttribute="centerX" secondItem="FO6-ei-V3d" secondAttribute="centerX" id="eCw-Nc-E0g"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="avz-aU-9G3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ISb-GO-exP"/>
-                            <constraint firstItem="avz-aU-9G3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="LaQ-nm-kcv"/>
-                            <constraint firstItem="FO6-ei-V3d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="76" id="TiP-Iz-820"/>
-                            <constraint firstItem="avz-aU-9G3" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="gmd-GA-Roi"/>
-                            <constraint firstItem="FO6-ei-V3d" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="139" id="hsb-Mj-wEa"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FO6-ei-V3d" secondAttribute="trailing" constant="76" id="oLn-vt-zuY"/>
-                            <constraint firstAttribute="bottom" secondItem="avz-aU-9G3" secondAttribute="bottom" id="weZ-tv-zrY"/>
+                            <constraint firstItem="FO6-ei-V3d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="76" id="KN1-VP-ggY"/>
+                            <constraint firstAttribute="bottom" secondItem="avz-aU-9G3" secondAttribute="bottom" id="LrM-f3-dHl"/>
+                            <constraint firstAttribute="trailing" secondItem="avz-aU-9G3" secondAttribute="trailing" id="N9i-3q-Aek"/>
+                            <constraint firstItem="avz-aU-9G3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Rw5-45-maO"/>
+                            <constraint firstItem="FO6-ei-V3d" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="130" id="Xqr-ol-GwM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FO6-ei-V3d" secondAttribute="trailing" constant="76" id="haC-17-c9W"/>
+                            <constraint firstItem="avz-aU-9G3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="iPH-Lo-U2r"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FO6-ei-V3d" secondAttribute="bottom" constant="200" id="zBp-Uv-Dji"/>
                         </constraints>
                     </view>
                     <connections>
@@ -95,7 +92,10 @@
     <resources>
         <image name="DiceOne" width="100" height="100"/>
         <image name="DiceeLogo" width="196" height="128"/>
-        <image name="GreenBackground" width="444.5" height="414"/>
+        <image name="GreenBackground" width="444.66665649414062" height="414.33334350585938"/>
+        <systemColor name="placeholderTextColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
